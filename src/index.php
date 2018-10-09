@@ -12,6 +12,13 @@
     				width: 100%;
     				height: auto%;
     			}
+    			#title{
+    				color: white;
+    				font-size: 50px;
+    				margin-left: 50px;
+    				margin-bottom: 700px !important;
+    				font-family: oswald;
+
 
     		</style>
   	</head>
@@ -19,8 +26,10 @@
   		<script src="/js/egg.js"></script>
    		<?php include'navbar.php';?>
 		<!--<h1 style="position: absolute; top: 10%;">RIOT</h1>-->
+		
 		<div id="yek">
 			<div id="carouselControls" class="carousel slide" data-ride="carousel">
+             <!--<h1 id="title" class="carousel-indicators">Rocklin Institunt of Technology Class</h1>-->
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -84,4 +93,5 @@
     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     		
   	</body>
+  	
 </html>

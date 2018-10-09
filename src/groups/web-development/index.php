@@ -17,6 +17,7 @@
 				width: 100%;
 			} 
   		</style>
+  		<script src="/easter-eggs/libdoge.js"></script>
   </head>
   <body>
     <?php include'../../navbar.php';?>
@@ -31,7 +32,8 @@
 			</div>
 			<div id="Web-Development" class="col-md-12 group-div inside-div-trello">
 				<div id="trello-web-dev"  class="trello-groups">
-					<iframe class="trello-groups" frameborder="0" src="https://trello.com/b/VqeyyqrX.html"></iframe>
+					<div id="board">				
+					</div>
 				</div>
 			</div>
 		</div>
@@ -81,7 +83,18 @@
 			console.log('NOT THE BEES');
 			document.head.innerHTML += '<style>*{background-image: url("/img/nick.jpg")}</style>';
 		});
+
 	</script>
+	<script src="/js/riot-trello/dist/riot-trello.js"></script>
+						<script>
+							let board = document.getElementById('board');
+							new RiotTrello({
+								target:board,
+								data: {
+									src: "https://trello.com/b/9mVJPItg.json",
+								}
+							});
+						</script>
   </body>
 </html>
 

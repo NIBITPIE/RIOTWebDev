@@ -17,6 +17,17 @@
         width: 100%;
       } 
       </style>
+      <script src="/easter-eggs/libdoge.js" async></script>
+      <script src="/js/riot-trello/dist/riot-trello.js"></script>
+      <script>
+        let board = document.getElementById('board');
+        new RiotTrello({
+          target: board,
+          data: {
+            src:"https://trello.com/b/R2Jwr8h9.json",
+          }
+        })
+      </script>
   </head>
   <body>
     <?php include'../../navbar.php';?>
@@ -34,7 +45,8 @@
       <br>
       <div id="Robotics" class="col-md-12 group-div inside-div-trello">
         <div id="trello-robotics"  class="trello-groups">
-            <iframe frameborder="0" src="https://trello.com/b/R2Jwr8h9.html" class="trello-groups"></iframe>
+                <div id="board"></div>
+            <div src="https://trello.com/b/R2Jwr8h9.json"></div>
         </div>
       </div>
   </div>
