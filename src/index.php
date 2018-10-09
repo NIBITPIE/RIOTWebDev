@@ -30,28 +30,28 @@
 			</ol>
 			<div class="carousel-inner">
    		 		<div class="carousel-item active">
-      				<img class="img-fluid d-block w-100" src="/images/dom-and-julia.jpg" alt="First slide">
+      				<img class="img-fluid d-block w-100" src="/images/DomAndJulia.jpg" alt="First slide">
 					<div class="carousel-caption d-none d-md-block">
 						<!--<h3></h3>
 						<p></p>-->
 					</div>
     			</div>
     			<div class="carousel-item">
-      				<img class="img-fluid d-block w-100" src="/images/m-and-d-2.jpg" alt="Second slide">
+      				<img class="img-fluid d-block w-100" src="/images/MAndD2.jpg" alt="Second slide">
 					<div class="carousel-caption d-none d-md-block">
 						<!--<h3></h3>
 						<p></p>-->
 					</div>
 				</div>
 				<div class="carousel-item">
-      				<img class="img-fluid d-block w-100" src="/images/programming.jpg" alt="Third slide">
+      				<img class="img-fluid d-block w-100" src="/images/ProgrammingGroup.jpg" alt="Third slide">
 					<div class="carousel-caption d-none d-md-block">
 						<!--<h3></h3>
 						<p></p>-->
 					</div>
     			</div>
     			<div class="carousel-item">
-      				<img class="img-fluid d-block w-100" src="/images/m-and-d.jpg" alt="Fourth slide">
+      				<img class="img-fluid d-block w-100" src="/images/MAndD.jpg" alt="Fourth slide">
 					<div class="carousel-caption d-none d-md-block">
 						<!--<h3></h3>
 						<p></p>-->
